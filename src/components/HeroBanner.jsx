@@ -19,7 +19,7 @@ export default function HeroBanner() {
             create team rituals and watch productivity soar.
           </p>
           <div className="block">
-            <button className="text-white bg-almostBlack py-3 px-6 inline-block w-auto rounded-xl hover:bg-almostWhite hover:border hover:border-almostBlack hover:text-almostBlack">
+            <button className="text-white bg-almostBlack py-3 px-6 inline-block w-auto rounded-xl hover:bg-almostWhite border border-almostBlack hover:text-almostBlack">
               Learn more
             </button>
           </div>

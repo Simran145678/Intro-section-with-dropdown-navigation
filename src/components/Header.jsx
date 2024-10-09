@@ -56,7 +56,7 @@ export default function Header() {
               } text-mediumGray md:absolute md:top-16 md:bg-white md:shadow-md py-3 px-6 md:-ml-8 rounded-xl`}
             >
               <li className="mb-1 flex items-center cursor-pointer hover:text-almostBlack">
-                <img className="object-none mr-2" src={todo} alt="to do svg" />{" "}
+                <img className="object-none mr-2" src={todo} alt="to do svg" />
                 <p>Todo List</p>
               </li>
               <li className="mb-1 flex items-center cursor-pointer hover:text-almostBlack">
