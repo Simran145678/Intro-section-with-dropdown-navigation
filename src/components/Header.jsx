@@ -42,10 +42,8 @@ export default function Header() {
             <a href="">snap</a>{" "}
           </li>
           <li className="text-mediumGray pr-8  hover:text-almostBlack mb-2 md:mb-0">
-            <div>
-              <a href="#" onClick={handlefeatureClick}>
-                Features
-              </a>{" "}
+            <div className="cursor-pointer" onClick={handlefeatureClick}>
+              <a href="#">Features</a>{" "}
               <img
                 className="mx-2 object-none inline"
                 src={!showFeatures ? downArrow : upArrow}
@@ -88,11 +86,9 @@ export default function Header() {
             </ul>
           </li>
           <li className="text-mediumGray pr-8 cursor-pointer hover:text-almostBlack mb-2 md:mb-0">
-            <div className="">
+            <div className="cursor-pointer" onClick={handleCompanyClick}>
               {" "}
-              <a href="#" onClick={handleCompanyClick}>
-                Company
-              </a>
+              <a href="#">Company</a>
               <img
                 className="mx-2 object-none inline"
                 src={!showCompany ? downArrow : upArrow}
